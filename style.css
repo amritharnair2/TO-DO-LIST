@@ -1,0 +1,72 @@
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 16px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: lightblue;
+}
+
+form {
+    width: 450px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-text a {
+    color: blue;
+    text-decoration: none;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
+.errorMsg {
+    color: red;
+    font-size: 14px;
+}
+
+.input-container {
+        position: relative;
+}
+    
+.input-container input {
+    padding-right: 30px; 
+}
+    
+.input-container i {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+  

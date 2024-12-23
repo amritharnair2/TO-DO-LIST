@@ -1,0 +1,66 @@
+h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: lighter;
+    
+}
+
+p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#taskInput:focus {
+    border: 3px solid lightblue;
+    outline: none;
+}
+
+input {
+    border: 1px solid lightgray;
+    width: 70%;
+    padding: 6px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn {
+    border-radius: 0px 5px 5px 0px;
+    padding: 6px;
+    width: 100px;
+}
+
+#taskList {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.list-group-item {
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+
+.list-group-item:hover {
+    background-color: #e7f5e7;
+}
+
+.task-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.task-text {
+    flex-grow: 1; 
+}
